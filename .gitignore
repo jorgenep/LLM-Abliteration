@@ -1,0 +1,63 @@
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Model directories (large cached weights)
+models/
+offload/
+deepseek-ai/
+meta-llama/
+
+# Abliterated model outputs (large, can be regenerated)
+deepseek-ai-DeepSeek-R1-Distill-Llama-8B-abliterated/
+LLM-Abliterated/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+.pip-target/
+
+# Unit test / coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Hugging Face cache
+.cache/
+huggingface_hub_cache/
