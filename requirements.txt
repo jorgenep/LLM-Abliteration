@@ -1,0 +1,10 @@
+transformers
+transformers_stream_generator
+tiktoken
+transformer_lens
+einops
+jaxtyping
+datasets
+tqdm
+torch
+accelerate
